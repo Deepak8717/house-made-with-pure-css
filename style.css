@@ -1,0 +1,94 @@
+body{
+    margin:0;
+    padding:0;
+    height:100vh;
+    background:skyblue;
+   
+}
+
+.container{
+    position: relative;
+    top:40%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width:70%;
+    height:300px;
+    background: silver;
+    display: flex;
+    border:2px solid black;
+}
+.container >div{
+    width:33.33%;
+    height:300px;
+}
+.container >div>div{
+    width:100%;
+    height:28px;
+    border-bottom:2px solid black;
+}
+.house-middle{
+    background: rgb(71, 69, 69);
+}
+.house-middle >div{
+    border-bottom:2px solid silver !important; ;
+}
+.left-window{
+    position: relative;
+    top: -50%;
+    left: 8%;
+    width: 80%!important;
+    height: 150px !important;
+    background: rgb(71, 69, 69);
+}
+.right-window{
+    position: relative;
+    top: -50%;
+    left: 8%;
+    width: 80%!important;
+    height: 150px !important;
+    background: rgb(71, 69, 69);
+}
+.house-middle .left-door{
+    position: relative;
+    top: -40%;
+    left: 10%;
+    width: 15% !important;
+    height: 100px !important;
+    background: rgb(71, 69, 69);
+    border: 7px solid rgb(228, 187, 153) !important;
+
+}
+.house-middle .right-door{
+    position: relative;
+    top: -90%;
+    left: 40%;
+    width: 40% !important;
+    height: 150px !important;
+    background: rgb(71, 69, 69);
+    border: 10px solid rgb(228, 187, 153) !important;
+}
+.roof{
+    position: absolute;
+    top: 38%;
+    left: 10%;
+    width: 80%;
+    height: 20px;
+    background: rgb(71, 69, 69);
+    z-index: 1;
+    transform: rotate(-1.3deg) translatez(0); 
+
+}
+.upper-part{
+    position: relative;
+    top:20%;
+    left:38.3%;
+    width:23.6%;
+    height:150px;
+    background:rgb(71, 69, 69);
+    z-index: 1;
+}
+.upper-part >div{
+    width:100%;
+    height:30px;
+    border-bottom:2px solid silver ;
+}
